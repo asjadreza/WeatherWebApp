@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Hind Siliguri', sans-serif;
+    box-sizing: border-box;
+    border: 0;
+}
+
+
+body {
+    /* background: #222; */
+    background: linear-gradient(to right, #3e2e63, #541416);
+}
+
+
+input {
+    color: #171717;
+}
+
+
+.card {
+    width: 90%;
+    max-width: 470px;
+    border: 1px solid #ccc;
+    margin: 100px auto 0;
+    background: transparent;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 12px;
+    margin: 8px;
+}
+
+.search-bar input {
+    background: #23557c;
+    width: 85%;
+    height: 64px;
+    color: white;
+    padding: 7px 25px;
+    font-size: 20px;
+    outline: none;
+    border-radius: 50px;
+}
+
+.search-bar button {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    right: 45px;
+    cursor: pointer;
+    background: transparent;
+}
+
+.search-icon {
+    color: #ddfb46;
+    font-size: 25px;
+}
+
+.search-icon:hover {
+    font-size: 28px;
+    transition: all 0.3s;
+
+}
+
+.weather {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 38px;
+}
+
+.weather-icon {
+    width: 170px;
+}
+
+.weather h1 {
+    font-size: 80px;
+    font-weight: 500;
+    margin-top: 18px;
+    color: white;
+}
+
+.weather h2 {
+    font-size: 45px;
+    font-weight: 400;
+    color: white;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 33px 0px;
+    margin-top: 26px;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    color: white;
+}
+
+.col img {
+    width: 40px;
+    margin-right: 10px;
+
+}
+
+#wind {
+    position: relative;
+    left: 40px;
+
+}
+
+#humidity {
+    position: relative;
+    right: 40px;
+}
+
+.error_message {
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    /* margin-left: 50px; */
+    display: none;
+}
