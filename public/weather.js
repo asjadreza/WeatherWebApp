@@ -6,11 +6,7 @@ const error = document.querySelector(".error_message");
 
 
 async function displayWeather(city) {
-    // const unit_name = "&units=";
-    // const unit_value = "metric";
-    // const unit = unit_name + unit_value;
     const url = `/api?q=${city}`;
-    // console.log(url);
     const response = await fetch(url);
     let data = await response.json();
 
